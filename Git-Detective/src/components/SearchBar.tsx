@@ -29,9 +29,9 @@ const SearchBar: React.FC<SearchBarProps> = ({ getUserData }) => {
         value={inputValue}
         onChange={(e) => setInputValue(e.target.value)}
         onKeyDown={handleKeyDown}
-        className="bg-transparent outline-none text-gray-800 dark:text-gray-200 flex-grow"
+        className= " bg-transparent outline-none text-gray-800 dark:text-gray-200 flex-grow bg-slate-800"
       />
-      <button onClick={handleSearch} className="btn-search bg-blue-500 text-white px-4 py-2 rounded-lg">
+      <button onClick={handleSearch} className="btn-search bg-blue-800 text-white px-4 py-2 rounded-lg">
         Search
       </button>
       <div className="error text-red-500 font-bold hidden">no search results</div>

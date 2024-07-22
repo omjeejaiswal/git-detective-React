@@ -39,10 +39,10 @@ const App: React.FC = () => {
   };
 
   return (
-    <div className={`${darkMode ? 'dark' : ''} bg-gray-100 dark:bg-gray-900 min-h-screen`}>
+    <div className={`${darkMode ? 'dark' : ''} bg-slate-100 dark:bg-slate-900 min-h-screen`}>
       <div className="container mx-auto p-4">
         <header className="flex justify-between items-center mb-8">
-          <h1 className="text-2xl font-bold">DevDetective</h1>
+          <h1 className="text-neutral-300 text-2xl font-bold">DevDetective</h1>
           <ToggleMode darkMode={darkMode} toggleDarkMode={toggleDarkMode} />
         </header>
         <main>
