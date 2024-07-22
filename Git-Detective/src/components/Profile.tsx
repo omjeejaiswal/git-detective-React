@@ -56,19 +56,19 @@ const Profile: React.FC<ProfileProps> = ({ userData }) => {
       </div>
       <div className="profile-bottom-wrapper flex flex-wrap">
         <div className="profile-info flex items-center w-full mb-2">
-          <img src="./assets/images/location-icon.svg" alt="location" className="bottom-icons w-5 h-5 mr-2" />
+          <img src="./src/assets/images/location-icon.svg" alt="location" className="bottom-icons w-5 h-5 mr-2" />
           <p id="location" className="text-gray-700 dark:text-gray-200">{location || "Not Available"}</p>
         </div>
         <div className="profile-info flex items-center w-full mb-2">
-          <img src="./assets/images/website-icon.svg" alt="website" className="bottom-icons w-5 h-5 mr-2" />
+          <img src="./src/assets/images/website-icon.svg" alt="website" className="bottom-icons w-5 h-5 mr-2" />
           <a href={blog || "#"} id="page" className="text-blue-500">{blog || "Not Available"}</a>
         </div>
         <div className="profile-info flex items-center w-full mb-2">
-        <img src="./assets/images/twitter-icon.svg" alt="twitter" className="bottom-icons w-5 h-5 mr-2" />
+        <img src="./src/assets/images/twitter-icon.svg" alt="twitter" className="bottom-icons w-5 h-5 mr-2" />
           <a href={`https://twitter.com/${twitter_username}`} id="twitter" className="text-blue-500">{twitter_username || "Not Available"}</a>
         </div>
         <div className="profile-info flex items-center w-full mb-2">
-          <img src="./assets/images/company-icon.svg" alt="company" className="bottom-icons w-5 h-5 mr-2" />
+          <img src="./src/assets/images/company-icon.svg" alt="company" className="bottom-icons w-5 h-5 mr-2" />
           <p id="company" className="text-gray-700 dark:text-gray-200">{company || "Not Available"}</p>
         </div>
       </div>
